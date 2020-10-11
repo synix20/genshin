@@ -1,0 +1,121 @@
+{
+  "ads_config": {
+    "ad_waterfall": [
+      "admob",
+      "unity",
+      "mopub"
+    ],
+    "ad_time": 10,
+    "ad_model": [
+      {
+        "name": "admob",
+        "app_id": "ca-app-pub-5483965574948910~6760917144",
+        "banner_id": "ca-app-pub-5483965574948910/1530633581",
+        "popup_id": "ca-app-pub-5483965574948910/4925091292",
+        "reward_id": "ca-app-pub-5483965574948910/2298927954"
+      },
+      {
+        "name": "unity",
+        "app_id": "3858993",
+        "banner_id": "banner",
+        "popup_id": "video",
+        "reward_id": "rewardedVideo"
+      },
+      {
+        "name": "mopub",
+        "app_id": "test_app",
+        "banner_id": "test_banner",
+        "popup_id": "test_popup",
+        "reward_id": "test_reward"
+      },
+      {
+        "name": "ironsource",
+        "app_id": "abc",
+        "banner_id": "DefaultBanner",
+        "popup_id": "DefaultInterstitial",
+        "reward_id": "DefaultRewardedVideo"
+      },
+      {
+        "name": "facebook",
+        "app_id": "test_app",
+        "banner_id": "test_banner",
+        "popup_id": "test_popup",
+        "reward_id": "test_reward"
+      }
+    ]
+  },
+  "album_config": {
+    "album": [
+      "girl",
+      "boy",
+      "others"
+    ]
+  },
+  "update_config": {
+    "enable": false,
+    "versionCode": 10,
+    "versionName": "1.1",
+    "title": "Update the new version",
+    "message": "Update the app now to get more photos and fsdf"
+  },
+  "redirect_config": {
+    "enable": false,
+    "title": "sadddd",
+    "message": "Because the appjlfksdjlf please install new app to conitue using",
+    "url": "https://google.com"
+  },
+  "fanpage_config": {
+    "fanpage": [
+      {
+        "link": "https://www.facebook.com/groups/1005739419937802",
+        "target": "us",
+        "enable": true
+      },
+      {
+        "link": "https://www.facebook.com/groups/1005739419937802",
+        "target": "vn",
+        "enable": true
+      },
+      {
+        "link": "https://www.facebook.com/groups/1005739419937802",
+        "target": "def",
+        "enable": true
+      }
+    ]
+  },
+  "shopping_config": {
+    "shopping": [
+      {
+        "data_file_url": "https://www.dropbox.com/s/arxu8570dfih293/item_sell_us.json?dl=1",
+        "target": "def",
+        "enable": false,
+        "show_price": true
+      },
+      {
+        "data_file_url": "https://www.dropbox.com/s/3bv9a4vs4x12e82/item_sell_vi.json?dl=1",
+        "target": "vn",
+        "enable": false,
+        "show_price": true
+      },
+      {
+        "data_file_url": "https://www.dropbox.com/s/arxu8570dfih293/item_sell_us.json?dl=1",
+        "target": "us",
+        "enable": false,
+        "show_price": true
+      }
+    ]
+  },
+  "moreapp_config": {
+    "moreapp": [
+      {
+        "title": "Mini-World Fan Art wallpaper HD 4K",
+        "text": "The best wallpaper app that a Mini World Block Art fan can not ignore",
+        "iconUrl": "https://i.pinimg.com/originals/1e/9d/73/1e9d7318a38273066b18469c3b2ea720.png",
+        "mainImageUrl": "https://i.pinimg.com/originals/90/73/d7/9073d7e6487b9fe393b94fcb0846c3e3.png",
+        "actionUrl": "com.milu.miniworld.wallpaper",
+        "stars": 5,
+        "numberOfUser": 100000
+      }   
+    ]
+  }
+}
